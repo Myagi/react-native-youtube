@@ -46,7 +46,7 @@ public class YouTubePlayerController implements
             // Update config
             mYouTubePlayer.setShowFullscreenButton(fullscreen);
 
-            mYouTubePlayer.setFullscreen(true);
+            mYouTubePlayer.setFullscreen(false);
             updateControls();
             mYouTubeView.playerViewDidBecomeReady();
             setLoaded(true);
