@@ -55,7 +55,7 @@ public class YouTubePlayerController implements
                 if (isPlay()) {
                     mYouTubePlayer.loadVideo(videoId);
                     if (!isPlayInline()) {
-                        mYouTubePlayer.setFullscreen(true);
+                        mYouTubePlayer.setFullscreen(false);
                     }
                 }
                 else {
